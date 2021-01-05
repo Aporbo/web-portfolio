@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Xanh Mono', monospace;
 }
 h1{
@@ -12,5 +13,51 @@ h1{
     float: left;
 }
 .half img{
-width: 100%;
+margin-left: 50px;
+width: 80%;
+height: 20%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(90deg, tomato, red);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5;
+    font-weight: 400;
+}
+.back{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.back2{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px gray;
+   border-radius: 10px;
+   height: 80%;
+}
+.ex-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#color{
+    border-left: 7 px solid;
+    border-image: linear-gradient(lightsalmon tomato);
+    border-image-slice:1; 
+}
+#color2{
+    border-left: 7 px solid;
+    border-image: linear-gradient(rgb(122, 255, 233) rgb(181, 71, 255));
+    border-image-slice:1; 
+}
+.copy{
+    text-align: center;
 }
